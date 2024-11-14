@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="rfc9290",
-    version="0.1.0",
+    version="0.1.1",
     description="Simple encoder/decoder for RFC 9290 Concise Problem Details",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
