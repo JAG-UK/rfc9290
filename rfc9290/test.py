@@ -1,9 +1,3 @@
-# rfc9290
-Simple encoder/decoder for RFC 9290 Concise Problem Details
-
-# Usage
-
-```python
 from rfc9290 import encode_problem_details, decode_problem_details
 
 # Build Problem Details as a dictionary
@@ -22,8 +16,3 @@ print("CBOR Encoded:", cbor_encoded)
 # Decode back to dictionary
 decoded_details = decode_problem_details(cbor_encoded)
 print("Decoded Details:", decoded_details)
-```
-
-# Contributing
-
-If you like CBOR/COSE please join the party and contribute code/tools!
